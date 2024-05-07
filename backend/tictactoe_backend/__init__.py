@@ -47,3 +47,5 @@ def create_app():
     socketio.init_app(app)
 
     return app
+
+if __name__ == "__main__": create_app()
